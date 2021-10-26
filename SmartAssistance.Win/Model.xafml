@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Logo="ExpressAppLogo" PreferredLanguage="en">
+  <NavigationItems NavigationStyle="Accordion" ShowImages="True" DefaultChildItemsDisplayStyle="List">
+    <Items>
+      <Item Id="Main" Index="1">
+        <Items>
+          <Item Id="@3e8d7c2a-9f54-4ff0-9056-3c72e0fff256" ViewId="MainView" Index="1" ImageName="MainMenuItem" IsNewNode="True" />
+          <Item Id="@715ee7e7-7c7b-4bcc-9cce-b82334639a40" ImageName="CheckBox" Index="2" />
+          <Item Id="@47192a6d-275d-4cc5-87cf-52b5ccab25c1" Removed="True" />
+          <Item Id="@67a5dfd9-e32b-4017-85ae-5d44fbae7ecc" Removed="True" />
+          <Item Id="Campus" Removed="True" />
+          <Item Id="Warning" Removed="True" />
+        </Items>
+      </Item>
+      <Item Id="@0af1d6c1-ae94-4d6c-a407-9d637f31593e" Caption="Maintenance" ImageName="ModelEditor_Settings" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@96a054a4-5836-440d-b2ae-f479b9a75b59" ViewId="Student_ListView" Index="1" ImageName="BO_Employee" IsNewNode="True" />
+          <Item Id="@6d4757f9-c1fb-4d9d-af2a-f8cb351031c8" ViewId="Module_ListView" Index="2" IsNewNode="True" />
+          <Item Id="@63a8c5a7-93fc-40a1-9807-93e68c5dc658" ViewId="Campus_ListView" ImageName="MergeCells" IsNewNode="True" />
+          <Item Id="@8f8e79fa-a091-4d61-b451-ef9dc817b4fd" ViewId="Warning_ListView" ImageName="Security_Warning" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Default" Caption="Users" ImageName="BO_Employee" />
+      <Item Id="Reports" ImageName="BO_Report" />
+    </Items>
+  </NavigationItems>
+  <Options UIType="TabbedMDI" FormStyle="Ribbon" ShowTabImage="False">
+    <LayoutManagerOptions EnableLayoutGroupImages="False" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="18.2.6.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="18.2.6.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="AuthenticationStandardLogonParameters_DetailView">
+      <Items>
+        <StaticImage Id="LogonImage" Caption="LogonImage(4)" />
+        <StaticText Id="LogonText" Caption="LogonText(7)" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="RootGroup" RelativeSize="100">
+            <LayoutGroup Id="ImageGroup" Caption="ImageGroup(3)" Direction="Horizontal" RelativeSize="1.0245901639344262">
+              <LayoutItem Id="LogonImage" Removed="True" />
+            </LayoutGroup>
+            <LayoutGroup Id="EditorsGroup" RelativeSize="98.97540983606558">
+              <LayoutGroup Id="Text" Caption="Text(6)" TextAlignMode="AlignWithChildren" RelativeSize="5.2434456928838955">
+                <LayoutItem Id="LogonText" RelativeSize="100" />
+              </LayoutGroup>
+              <LayoutGroup Id="Editors" RelativeSize="94.7565543071161" Direction="Vertical" Caption="Editors">
+                <LayoutItem Id="UserName" ViewItem="UserName" Index="0" RelativeSize="5.3359683794466406" IsNewNode="True" Removed="True" />
+                <LayoutItem Id="Password" ViewItem="Password" Index="1" RelativeSize="94.664031620553359" IsNewNode="True" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DashboardView Id="MainView" IsNewNode="True">
+      <Items IsNewNode="True">
+        <ControlDetailItem Id="MainView" ControlTypeName="SmartAssistance.Module.Utils.MainView" IsNewNode="True" />
+      </Items>
+      <Layout IsNewNode="True">
+        <LayoutItem Id="MainView" ViewItem="MainView" Index="0" RelativeSize="5.9925093632958806" IsNewNode="True" />
+      </Layout>
+    </DashboardView>
+  </Views>
+</Application>

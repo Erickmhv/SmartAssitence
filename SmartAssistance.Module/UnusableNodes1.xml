@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Assistence_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Assistence">
+              <LayoutItem Id="Teacher" RelativeSize="29.09090909090909" Index="0" />
+              <LayoutItem Id="Date" RelativeSize="21.818181818181817" Index="1" />
+              <LayoutItem Id="EnumShift" RelativeSize="21.818181818181817" Index="2" />
+              <LayoutItem Id="Module" RelativeSize="27.272727272727273" Index="3" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

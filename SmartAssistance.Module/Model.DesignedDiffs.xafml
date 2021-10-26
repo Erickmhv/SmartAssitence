@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="SmartAssistance">
+  <BOModel>
+    <Class Name="SmartAssistance.Module.BusinessObjects.Prueba22.Assistence">
+      <OwnMembers>
+        <Member Name="EnumShift" Caption="Shift" />
+        <Member Name="LastModifiedDate" AllowEdit="False" EditMaskType="DateTime" EditMask="g" />
+        <Member Name="Teacher" AllowEdit="False" />
+      </OwnMembers>
+    </Class>
+    <Class Name="SmartAssistance.Module.BusinessObjects.Prueba22.Student">
+      <OwnMembers>
+        <Member Name="EnumShift" Caption="Shift" />
+      </OwnMembers>
+    </Class>
+    <Class Name="SmartAssistance.Module.BusinessObjects.Prueba22.StudentAssistence">
+      <OwnMembers>
+        <Member Name="EnumAssist" Caption="Assist" />
+      </OwnMembers>
+    </Class>
+    <Class Name="SmartAssistance.Module.BusinessObjects.Prueba22.Warning">
+      <OwnMembers>
+        <Member Name="EnumRazonWarning" Caption="Razon Warning" />
+        <Member Name="EnumShift" Caption="Shift" />
+        <Member Name="EnumTipoWarning" Caption="Tipo Warning" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="Main" ImageName="BO_Address" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@715ee7e7-7c7b-4bcc-9cce-b82334639a40" ViewId="Assistence_ListView" Index="1" IsNewNode="True" />
+          <Item Id="@47192a6d-275d-4cc5-87cf-52b5ccab25c1" ViewId="Student_ListView" Index="2" IsNewNode="True" />
+          <Item Id="@67a5dfd9-e32b-4017-85ae-5d44fbae7ecc" ViewId="Module_DetailView" IsNewNode="True" />
+          <Item Id="Campus" ViewId="Campus_ListView" IsNewNode="True" />
+          <Item Id="Warning" ViewId="Warning_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="21.1.4.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="Assistence_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="32.6530612244898">
+            <LayoutGroup Id="Assistence" RelativeSize="100" Direction="Vertical">
+              <LayoutGroup Id="Assistence_col1" RelativeSize="100">
+                <LayoutItem Id="Teacher" RelativeSize="23.529411764705884" Index="0" />
+                <LayoutItem Id="Date" RelativeSize="17.647058823529413" Index="1" />
+                <LayoutItem Id="EnumShift" RelativeSize="17.647058823529413" Index="2" />
+                <LayoutItem Id="Module" ViewItem="Module" Index="3" RelativeSize="17.647058823529413" IsNewNode="True" />
+                <LayoutItem Id="LastModifiedDate" ViewItem="LastModifiedDate" Index="4" RelativeSize="23.529411764705884" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Assistence_col2" Caption="Assistence_col2" RelativeSize="50" Direction="Horizontal" Removed="True">
+                <LayoutItem Id="LastModifiedDate" Removed="True" />
+                <LayoutItem Id="Module" RelativeSize="100" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="70.666666666666671" Removed="True">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="StudentAssistences_Group" Direction="Vertical" RelativeSize="67.34693877551021">
+            <LayoutItem Id="StudentAssistences" RelativeSize="100" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Assistence_StudentAssistences_ListView" AllowEdit="True">
+      <Columns>
+        <ColumnInfo Id="Student" Index="0" Width="195" />
+        <ColumnInfo Id="EnumAssist" Index="1" Width="107" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Campus_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Campus" RelativeSize="100">
+              <LayoutItem Id="Description" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="94.933333333333337" Removed="True">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Module_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Module" RelativeSize="100">
+              <LayoutItem Id="Name" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="94.933333333333337" Removed="True">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Student_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Student" RelativeSize="100" Direction="Vertical">
+              <LayoutGroup Id="Student_col1" RelativeSize="100">
+                <LayoutItem Id="FirstName" RelativeSize="6.5040650406504064" Index="0" />
+                <LayoutItem Id="LastName" ViewItem="LastName" Index="1" RelativeSize="4.8780487804878048" IsNewNode="True" />
+                <LayoutItem Id="ID" ViewItem="ID" Index="2" RelativeSize="4.8780487804878048" IsNewNode="True" />
+                <LayoutItem Id="Campus" ViewItem="Campus" Index="3" RelativeSize="4.8780487804878048" IsNewNode="True" />
+                <LayoutItem Id="EnumShift" RelativeSize="4.8780487804878048" Index="4" />
+                <LayoutItem Id="Module" ViewItem="Module" Index="5" RelativeSize="4.8780487804878048" IsNewNode="True" />
+                <LayoutItem Id="Teacher" RelativeSize="69.105691056910572" Index="6" />
+                <LayoutItem Id="FullName" RelativeSize="4.5197740112994351" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Student_col2" RelativeSize="50" Caption="Student_col2" Direction="Horizontal" Removed="True">
+                <LayoutItem Id="Campus" RelativeSize="6.5040650406504064" Index="0" Removed="True" />
+                <LayoutItem Id="ID" RelativeSize="6.5040650406504064" Index="0" Removed="True" />
+                <LayoutItem Id="Module" RelativeSize="100" Index="0" Removed="True" />
+                <LayoutItem Id="LastName" RelativeSize="6.5040650406504064" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="80.533333333333331" Removed="True">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="StudentAssistence_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="StudentAssistence" RelativeSize="100">
+              <LayoutItem Id="EnumAssist" RelativeSize="4.2666666666666666" />
+              <LayoutItem Id="Student" RelativeSize="3.2" />
+              <LayoutItem Id="Assistence" RelativeSize="92.533333333333331" />
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="88.533333333333331" Removed="True">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Warning_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Warning" RelativeSize="100" />
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="85.333333333333329" Removed="True">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\manue\OneDrive\Escritorio</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/de/DevExpress.Data.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:55</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.ExpressApp.Notifications.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.ExpressApp.Notifications.Web.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.ExpressApp.ReportsV2.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.ExpressApp.ReportsV2.Web.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.ExpressApp.Security.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.ExpressApp.Security.Xpo.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.ExpressApp.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.ExpressApp.Validation.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Office.v18.2.Core.resources.dll">
+      <publishTime>12/01/2019 14:49:08</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Persistent.Base.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Printing.v18.2.Core.resources.dll">
+      <publishTime>12/01/2019 14:49:08</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.RichEdit.v18.2.Core.resources.dll">
+      <publishTime>12/01/2019 14:49:14</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:50</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Xpo.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:49:12</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraReports.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:49:14</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraReports.v18.2.Web.resources.dll">
+      <publishTime>12/01/2019 14:49:14</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraScheduler.v18.2.Core.resources.dll">
+      <publishTime>12/01/2019 14:49:14</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Data.v18.2.dll">
+      <publishTime>12/01/2019 14:48:55</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.Images.v18.2.dll">
+      <publishTime>12/01/2019 14:48:57</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.Notifications.v18.2.dll">
+      <publishTime>12/01/2019 14:48:57</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.Notifications.Web.v18.2.dll">
+      <publishTime>12/01/2019 14:48:57</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.ReportsV2.v18.2.dll">
+      <publishTime>12/01/2019 14:48:57</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.ReportsV2.Web.v18.2.dll">
+      <publishTime>12/01/2019 14:48:57</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.Security.v18.2.dll">
+      <publishTime>12/01/2019 14:48:57</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.Security.Xpo.v18.2.dll">
+      <publishTime>12/01/2019 14:48:57</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.v18.2.dll">
+      <publishTime>12/01/2019 14:48:57</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.Validation.v18.2.dll">
+      <publishTime>12/01/2019 14:48:57</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.Validation.Web.v18.2.dll">
+      <publishTime>12/01/2019 14:48:57</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.Xpo.v18.2.dll">
+      <publishTime>12/01/2019 14:48:57</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Office.v18.2.Core.dll">
+      <publishTime>12/01/2019 14:49:08</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Persistent.Base.v18.2.dll">
+      <publishTime>12/01/2019 14:48:57</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Persistent.BaseImpl.v18.2.dll">
+      <publishTime>12/01/2019 14:48:57</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Printing.v18.2.Core.dll">
+      <publishTime>12/01/2019 14:49:08</publishTime>
+    </File>
+    <File Include="bin/DevExpress.RichEdit.v18.2.Core.dll">
+      <publishTime>12/01/2019 14:49:14</publishTime>
+    </File>
+    <File Include="bin/DevExpress.RichEdit.v18.2.Export.dll">
+      <publishTime>12/01/2019 14:49:14</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxThemes.v18.2.dll">
+      <publishTime>12/01/2019 14:48:53</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.v18.2.dll">
+      <publishTime>12/01/2019 14:48:50</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Xpo.v18.2.dll">
+      <publishTime>12/01/2019 14:49:12</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraReports.v18.2.dll">
+      <publishTime>12/01/2019 14:49:14</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraReports.v18.2.Web.dll">
+      <publishTime>12/01/2019 14:49:14</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraReports.v18.2.Web.WebForms.dll">
+      <publishTime>12/01/2019 14:49:14</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraScheduler.v18.2.Core.dll">
+      <publishTime>12/01/2019 14:49:14</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Data.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:55</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.ExpressApp.Notifications.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.ExpressApp.Notifications.Web.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.ExpressApp.ReportsV2.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.ExpressApp.ReportsV2.Web.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.ExpressApp.Security.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.ExpressApp.Security.Xpo.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.ExpressApp.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.ExpressApp.Validation.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Office.v18.2.Core.resources.dll">
+      <publishTime>12/01/2019 14:49:08</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Persistent.Base.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Printing.v18.2.Core.resources.dll">
+      <publishTime>12/01/2019 14:49:08</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.RichEdit.v18.2.Core.resources.dll">
+      <publishTime>12/01/2019 14:49:14</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:50</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Xpo.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:49:12</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraReports.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:49:14</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraReports.v18.2.Web.resources.dll">
+      <publishTime>12/01/2019 14:49:14</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraScheduler.v18.2.Core.resources.dll">
+      <publishTime>12/01/2019 14:49:14</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Data.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:55</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.ExpressApp.Notifications.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.ExpressApp.Notifications.Web.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.ExpressApp.ReportsV2.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.ExpressApp.ReportsV2.Web.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.ExpressApp.Security.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.ExpressApp.Security.Xpo.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.ExpressApp.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.ExpressApp.Validation.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Office.v18.2.Core.resources.dll">
+      <publishTime>12/01/2019 14:49:08</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Persistent.Base.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Printing.v18.2.Core.resources.dll">
+      <publishTime>12/01/2019 14:49:08</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.RichEdit.v18.2.Core.resources.dll">
+      <publishTime>12/01/2019 14:49:14</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:50</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Xpo.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:49:12</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraReports.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:49:14</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraReports.v18.2.Web.resources.dll">
+      <publishTime>12/01/2019 14:49:14</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraScheduler.v18.2.Core.resources.dll">
+      <publishTime>12/01/2019 14:49:14</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Data.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:55</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.ExpressApp.Notifications.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.ExpressApp.Notifications.Web.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.ExpressApp.ReportsV2.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.ExpressApp.ReportsV2.Web.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.ExpressApp.Security.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.ExpressApp.Security.Xpo.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.ExpressApp.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.ExpressApp.Validation.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Office.v18.2.Core.resources.dll">
+      <publishTime>12/01/2019 14:49:08</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Persistent.Base.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:58</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Printing.v18.2.Core.resources.dll">
+      <publishTime>12/01/2019 14:49:08</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.RichEdit.v18.2.Core.resources.dll">
+      <publishTime>12/01/2019 14:49:14</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:48:50</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Xpo.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:49:12</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraReports.v18.2.resources.dll">
+      <publishTime>12/01/2019 14:49:14</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraReports.v18.2.Web.resources.dll">
+      <publishTime>12/01/2019 14:49:14</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraScheduler.v18.2.Core.resources.dll">
+      <publishTime>12/01/2019 14:49:14</publishTime>
+    </File>
+    <File Include="bin/SmartAssistance.Module.dll">
+      <publishTime>10/21/2020 19:20:50</publishTime>
+    </File>
+    <File Include="bin/SmartAssistance.Module.dll.config">
+      <publishTime>10/14/2020 18:52:10</publishTime>
+    </File>
+    <File Include="bin/SmartAssistance.Module.pdb">
+      <publishTime>10/21/2020 19:20:50</publishTime>
+    </File>
+    <File Include="bin/SmartAssistance.Module.Web.dll">
+      <publishTime>10/21/2020 19:20:51</publishTime>
+    </File>
+    <File Include="bin/SmartAssistance.Module.Web.pdb">
+      <publishTime>10/21/2020 19:20:51</publishTime>
+    </File>
+    <File Include="bin/SmartAssistance.Web.dll">
+      <publishTime>10/21/2020 19:20:52</publishTime>
+    </File>
+    <File Include="bin/SmartAssistance.Web.pdb">
+      <publishTime>10/21/2020 19:20:52</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>10/12/2020 18:16:47</publishTime>
+    </File>
+    <File Include="Error.aspx">
+      <publishTime>10/12/2020 18:16:47</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/12/2020 18:16:47</publishTime>
+    </File>
+    <File Include="Images/Logo.png">
+      <publishTime>10/12/2020 18:16:47</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>10/12/2020 18:16:47</publishTime>
+    </File>
+    <File Include="Model.Desktop.xafml">
+      <publishTime>10/12/2020 18:16:47</publishTime>
+    </File>
+    <File Include="Model.Tablet.xafml">
+      <publishTime>10/12/2020 18:16:47</publishTime>
+    </File>
+    <File Include="Model.xafml">
+      <publishTime>10/12/2020 18:16:47</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/21/2020 19:20:53</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

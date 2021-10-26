@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Warning_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Warning">
+              <LayoutItem Id="EnumShift" RelativeSize="4.2666666666666666" />
+              <LayoutItem Id="Description" RelativeSize="3.2" />
+              <LayoutItem Id="Student" RelativeSize="3.2" />
+              <LayoutItem Id="Module" RelativeSize="89.333333333333329" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>
